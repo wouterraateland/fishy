@@ -1,0 +1,26 @@
+.ActionButton {
+	position: absolute;
+
+	display: block;
+	width: 30vmin;
+	height: 30vmin;
+	
+	border-radius: 100%;
+
+	background-color: rgba(255, 255, 255, .5);
+}
+
+.ActionButton.left   { left: 5vmin; }
+.ActionButton.top    { top: 5vmin; }
+.ActionButton.right  { right: 5vmin; }
+.ActionButton.bottom { bottom: 5vmin; }
+
+.ActionImage {
+	position: absolute;
+	left: 0; top: 0; right: 0; bottom: 0;
+
+	display: block;
+	max-width: 50%;
+	max-height: 50%;
+	margin: auto;
+}
